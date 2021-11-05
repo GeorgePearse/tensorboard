@@ -23,7 +23,8 @@ import {
 import * as logging from './logging';
 
 // Limit for the number of data points we receive from the server.
-export const LIMIT_NUM_POINTS = 1000000 #100000;
+// Was 100K, bumped to 1 mil.
+export const LIMIT_NUM_POINTS = 1000000 
 
 /**
  * Data provider that loads data provided by a python server (usually backed
